@@ -1,0 +1,594 @@
+<html>
+<head>
+<title>TestNG:  assignments</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>assignments</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>103/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 03 23:32:58 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>469 seconds (469830 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign1.loginUser1()'><b>loginUser1</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign1</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign1@7d0b7e3c</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign4.modifycustomer()'><b>modifycustomer</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign4</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.log4jassign.ChromeAssign4@1530c739</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign6.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign6</td>
+<td></td>
+<td>12</td>
+<td>com.sgtesting.log4jassign.ChromeAssign6@78e4deb0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign7.createproject()'><b>createproject</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign7</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.log4jassign.ChromeAssign7@6e9175d8</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.loginmodifiedUser2()'><b>loginmodifiedUser2</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.createUser2()'><b>createUser2</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.createUser3()'><b>createUser3</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign5.navigate()'><b>navigate</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign5</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.log4jassign.ChromeAssign5@5b1669c0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign2.logout()'><b>logout</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.ChromeAssign2@53fe15ff</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.modifyUser1()'><b>modifyUser1</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>11</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign6.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign6</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.log4jassign.ChromeAssign6@78e4deb0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign1.loginUser2()'><b>loginUser2</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign1</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign1@7d0b7e3c</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign3.navigate()'><b>navigate</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign3</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.log4jassign.ChromeAssign3@449a4f23</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.deleteUser2()'><b>deleteUser2</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign4.login()'><b>login</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign4</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.ChromeAssign4@1530c739</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign7.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign7</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.log4jassign.ChromeAssign7@6e9175d8</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign1.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign1</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.log4jassign.ChromeAssign1@60099951</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign1.login()'><b>login</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign1</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.ChromeAssign1@60099951</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign2.login()'><b>login</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.ChromeAssign2@53fe15ff</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign4.logout()'><b>logout</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign4</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.ChromeAssign4@1530c739</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign1.logout()'><b>logout</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign1</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign1@7d0b7e3c</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign1.create3Users()'><b>create3Users</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign1</td>
+<td></td>
+<td>18</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign1@7d0b7e3c</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.createUser1()'><b>createUser1</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>11</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign6.navigate()'><b>navigate</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign6</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.log4jassign.ChromeAssign6@78e4deb0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign6.login()'><b>login</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign6</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.log4jassign.ChromeAssign6@78e4deb0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign2.modifyuser()'><b>modifyuser</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign2</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.log4jassign.ChromeAssign2@53fe15ff</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign3.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign3</td>
+<td></td>
+<td>11</td>
+<td>com.sgtesting.log4jassign.ChromeAssign3@449a4f23</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign2.createUser()'><b>createUser</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign2</td>
+<td></td>
+<td>14</td>
+<td>com.sgtesting.log4jassign.ChromeAssign2@53fe15ff</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign1.navigate()'><b>navigate</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign1</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.log4jassign.ChromeAssign1@60099951</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign4.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign4</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.log4jassign.ChromeAssign4@1530c739</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign3.deletecustomer()'><b>deletecustomer</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign3</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.log4jassign.ChromeAssign3@449a4f23</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign1.logoutUser2()'><b>logoutUser2</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign1</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign1@7d0b7e3c</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign5.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign5</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.log4jassign.ChromeAssign5@5b1669c0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign5.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign5</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.log4jassign.ChromeAssign5@5b1669c0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign1.createUser()'><b>createUser</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign1</td>
+<td></td>
+<td>11</td>
+<td>com.sgtesting.log4jassign.ChromeAssign1@60099951</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.loginmodifiedUser221()'><b>loginmodifiedUser221</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign7.navigate()'><b>navigate</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign7</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.log4jassign.ChromeAssign7@6e9175d8</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign5.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign5</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.log4jassign.ChromeAssign5@5b1669c0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign7.login()'><b>login</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign7</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.ChromeAssign7@6e9175d8</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign4.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign4</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.log4jassign.ChromeAssign4@1530c739</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign1.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign1</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign1@7d0b7e3c</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.deleteUser1()'><b>deleteUser1</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign3.logout()'><b>logout</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign3</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.log4jassign.ChromeAssign3@449a4f23</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign6.modifyproject()'><b>modifyproject</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign6</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.log4jassign.ChromeAssign6@78e4deb0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign7.deletetask()'><b>deletetask</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign7</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.log4jassign.ChromeAssign7@6e9175d8</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.login12()'><b>login12</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign4.navigate()'><b>navigate</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign4</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.log4jassign.ChromeAssign4@1530c739</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign5.login()'><b>login</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign5</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.ChromeAssign5@5b1669c0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign1.deleteUser()'><b>deleteUser</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign1</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.log4jassign.ChromeAssign1@60099951</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign5.deletecumstomer()'><b>deletecumstomer</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign5</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.log4jassign.ChromeAssign5@5b1669c0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.loginmodifiedUser1()'><b>loginmodifiedUser1</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.deleteUser3()'><b>deleteUser3</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign2.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign2</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.log4jassign.ChromeAssign2@53fe15ff</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.logout8()'><b>logout8</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign6.createproject()'><b>createproject</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign6</td>
+<td></td>
+<td>10</td>
+<td>com.sgtesting.log4jassign.ChromeAssign6@78e4deb0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign1.logoutUser1()'><b>logoutUser1</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign1</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign1@7d0b7e3c</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.login27()'><b>login27</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.logout()'><b>logout</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign6.deletecumstomer()'><b>deletecumstomer</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign6</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.log4jassign.ChromeAssign6@78e4deb0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign3.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign3</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.log4jassign.ChromeAssign3@449a4f23</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.logout11()'><b>logout11</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign4.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign4</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.log4jassign.ChromeAssign4@1530c739</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.logout23()'><b>logout23</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign1.logoutUser3()'><b>logoutUser3</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign1</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign1@7d0b7e3c</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign6.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign6</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.log4jassign.ChromeAssign6@78e4deb0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign1.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign1</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign1@7d0b7e3c</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign2.deleteUser()'><b>deleteUser</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign2</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.log4jassign.ChromeAssign2@53fe15ff</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign1.logoutAdmin()'><b>logoutAdmin</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign1</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign1@7d0b7e3c</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign1.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign1</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.log4jassign.ChromeAssign1@60099951</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.closeApplication()'><b>closeApplication</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign6.deleteproject()'><b>deleteproject</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign6</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.log4jassign.ChromeAssign6@78e4deb0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.logout20()'><b>logout20</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign3.login()'><b>login</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign3</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.ChromeAssign3@449a4f23</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.logout29()'><b>logout29</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.login()'><b>login</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.modifyUser3()'><b>modifyUser3</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>11</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign3.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign3</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.log4jassign.ChromeAssign3@449a4f23</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.loginUser1()'><b>loginUser1</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign1.delete3Users()'><b>delete3Users</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign1</td>
+<td></td>
+<td>23</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign1@7d0b7e3c</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign7.createtask()'><b>createtask</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign7</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.log4jassign.ChromeAssign7@6e9175d8</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign4.deletecumstomer()'><b>deletecumstomer</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign4</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.log4jassign.ChromeAssign4@1530c739</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign2.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign2</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.log4jassign.ChromeAssign2@53fe15ff</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign1.navigate()'><b>navigate</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign1</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign1@7d0b7e3c</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign5.deleteproject()'><b>deleteproject</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign5</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.log4jassign.ChromeAssign5@5b1669c0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign5.logout()'><b>logout</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign5</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.ChromeAssign5@5b1669c0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign1.loginUser3()'><b>loginUser3</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign1</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign1@7d0b7e3c</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign5.createproject()'><b>createproject</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign5</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.log4jassign.ChromeAssign5@5b1669c0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign6.logout()'><b>logout</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign6</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.ChromeAssign6@78e4deb0</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.navigate()'><b>navigate</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.logout14()'><b>logout14</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.logout26()'><b>logout26</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign1.login()'><b>login</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign1</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign1@7d0b7e3c</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign7.logout()'><b>logout</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign7</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.ChromeAssign7@6e9175d8</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign7.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign7</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.log4jassign.ChromeAssign7@6e9175d8</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign1.logout()'><b>logout</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign1</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.ChromeAssign1@60099951</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign1.loginAdmin()'><b>loginAdmin</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign1</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign1@7d0b7e3c</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign7.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign7</td>
+<td></td>
+<td>1</td>
+<td>com.sgtesting.log4jassign.ChromeAssign7@6e9175d8</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.modifyUser2()'><b>modifyUser2</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>11</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.logout17()'><b>logout17</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.loginUser2()'><b>loginUser2</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.ChromeAssign2.navigate()'><b>navigate</b><br>Test class: com.sgtesting.log4jassign.ChromeAssign2</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.log4jassign.ChromeAssign2@53fe15ff</td></tr>
+<tr>
+<td title='com.sgtesting.log4jassign.AdvanceAssign2.loginmodifiedUser124()'><b>loginmodifiedUser124</b><br>Test class: com.sgtesting.log4jassign.AdvanceAssign2</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.log4jassign.AdvanceAssign2@15bb5034</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name ="Assign6,7">
+<test name="Chrome">
+<classes>
+<class name ="com.sgtesting.testngpack1.ChromeAssign6"></class>
+<class name ="com.sgtesting.testngpack1.ChromeAssign7"></class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name ="log4j">
+<test name ="assignments">
+	<classes>
+			<class name="com.sgtesting.log4jassign.ChromeAssign1"></class>
+			
+			<class name="com.sgtesting.log4jassign.ChromeAssign2"></class>
+			
+			<class name="com.sgtesting.log4jassign.ChromeAssign3"></class>
+			
+			<class name="com.sgtesting.log4jassign.ChromeAssign4"></class>
+			
+			<class name="com.sgtesting.log4jassign.ChromeAssign5"></class>
+			
+			<class name="com.sgtesting.log4jassign.ChromeAssign6"></class>
+			
+			<class name="com.sgtesting.log4jassign.ChromeAssign7"></class>
+			
+			<class name="com.sgtesting.log4jassign.AdvanceAssign1"></class>
+			
+			<class name="com.sgtesting.log4jassign.AdvanceAssign2"></class>
+	</classes>
+</test>
+</suite>

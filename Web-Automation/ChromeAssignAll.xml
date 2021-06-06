@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Chrome">
+<test name ="AllAssign">
+ <classes>
+         <class name="com.sgtesting.testngpack1.ChromeAssign1"></class>
+         
+         <class name="com.sgtesting.testngpack1.ChromeAssign2"></class>
+         
+         <class name="com.sgtesting.testngpack1.ChromeAssign3"></class>
+         
+         <class name="com.sgtesting.testngpack1.ChromeAssign4"></class>
+         
+         <class name="com.sgtesting.testngpack1.ChromeAssign5"></class>
+         
+         <class name="com.sgtesting.testngpack1.ChromeAssign6"></class>
+         
+         <class name="com.sgtesting.testngpack1.ChromeAssign7"></class> 
+         
+         <class name="com.sgtesting.testngpack1.AdvanceAssign1"></class>
+         
+         <class name="com.sgtesting.testngpack1.AdvanceAssign2"></class>    
+         
+     </classes>
+</test>
+</suite>

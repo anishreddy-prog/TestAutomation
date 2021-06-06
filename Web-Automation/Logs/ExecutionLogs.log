@@ -1,0 +1,145 @@
+2021-06-02 12:37:03 INFO  For Loop Output:9 - The Execution of For Loop Starts Here!!!!!
+2021-06-02 12:37:03 INFO  For Loop Output:13 - The Even Number is :20
+2021-06-02 12:37:03 INFO  For Loop Output:13 - The Even Number is :22
+2021-06-02 12:37:03 INFO  For Loop Output:13 - The Even Number is :24
+2021-06-02 12:37:03 INFO  For Loop Output:13 - The Even Number is :26
+2021-06-02 12:37:03 INFO  For Loop Output:13 - The Even Number is :28
+2021-06-02 12:37:03 INFO  For Loop Output:13 - The Even Number is :30
+2021-06-02 12:37:03 INFO  For Loop Output:13 - The Even Number is :32
+2021-06-02 12:37:03 INFO  For Loop Output:13 - The Even Number is :34
+2021-06-02 12:37:03 INFO  For Loop Output:13 - The Even Number is :36
+2021-06-02 12:37:03 INFO  For Loop Output:13 - The Even Number is :38
+2021-06-02 12:37:03 INFO  For Loop Output:13 - The Even Number is :40
+2021-06-02 12:37:03 INFO  For Loop Output:16 - The Execution of For Loop ends Here!!!!!
+
+
+2021-06-03 23:33:00 INFO  actitime testing:21 - launch browser
+2021-06-03 23:33:05 INFO  actitime testing:37 - navigate to URL
+2021-06-03 23:33:07 INFO  actitime testing:53 - login as admin
+2021-06-03 23:33:19 INFO  actitime testing:92 - created user 1
+2021-06-03 23:33:26 INFO  actitime testing:114 - deleted user 1
+2021-06-03 23:33:28 INFO  actitime testing:128 - logout 
+2021-06-03 23:33:28 INFO  actitime testing:141 - close application
+
+
+2021-06-03 23:33:29 INFO  actitime testing:23 - launch browser
+2021-06-03 23:33:35 INFO  actitime testing:38 - navigate to URL
+2021-06-03 23:33:37 INFO  actitime testing:54 - login as admin
+2021-06-03 23:33:51 INFO  actitime testing:90 - created user 1
+2021-06-03 23:33:59 INFO  actitime testing:108 - modified user 1
+2021-06-03 23:34:07 INFO  actitime testing:130 - deleted user 1
+2021-06-03 23:34:09 INFO  actitime testing:144 - logout
+2021-06-03 23:34:09 INFO  actitime testing:158 - close application
+
+
+2021-06-03 23:34:10 INFO  actitime testing:22 - launch browser
+2021-06-03 23:34:15 INFO  actitime testing:37 - navigate to URL
+2021-06-03 23:34:17 INFO  actitime testing:53 - login as admin
+2021-06-03 23:34:28 INFO  actitime testing:86 - created customer
+2021-06-03 23:34:36 INFO  actitime testing:106 - deleted customer 
+2021-06-03 23:34:40 INFO  actitime testing:121 - logout
+2021-06-03 23:34:40 INFO  actitime testing:134 - close application
+
+
+2021-06-03 23:34:42 INFO  actitime testing:22 - launch browser
+2021-06-03 23:34:45 INFO  actitime testing:37 - navigating to URL
+2021-06-03 23:34:47 INFO  actitime testing:53 - login as admin
+2021-06-03 23:34:54 INFO  actitime testing:86 - created customer
+2021-06-03 23:34:57 INFO  actitime testing:105 - modified customer
+2021-06-03 23:35:02 INFO  actitime testing:126 - deleted customer
+2021-06-03 23:35:04 INFO  actitime testing:140 - logout
+2021-06-03 23:35:04 INFO  actitime testing:153 - close application
+
+
+2021-06-03 23:35:05 INFO  actitime testing:20 - launch browser
+2021-06-03 23:35:11 INFO  actitime testing:35 - navigating to URL
+2021-06-03 23:35:13 INFO  actitime testing:50 - login as admin
+2021-06-03 23:35:22 INFO  actitime testing:82 - created customer
+2021-06-03 23:35:29 INFO  actitime testing:101 - created project
+2021-06-03 23:35:34 INFO  actitime testing:121 - deleted project
+2021-06-03 23:35:38 INFO  actitime testing:141 - deleted customer
+2021-06-03 23:35:40 INFO  actitime testing:154 - logout
+2021-06-03 23:35:40 INFO  actitime testing:166 - close application
+
+
+2021-06-03 23:35:42 INFO  actitime testing:22 - launch browser
+2021-06-03 23:35:46 INFO  actitime testing:37 - navigating to url
+2021-06-03 23:35:50 INFO  actitime testing:52 - login as admin
+2021-06-03 23:36:03 INFO  actitime testing:85 - created customer
+2021-06-03 23:36:14 INFO  actitime testing:105 - created project
+2021-06-03 23:36:20 INFO  actitime testing:124 - modified project
+2021-06-03 23:36:28 INFO  actitime testing:143 - deleted project
+2021-06-03 23:36:34 INFO  actitime testing:163 - deleted customer
+2021-06-03 23:36:36 INFO  actitime testing:177 - logout
+2021-06-03 23:36:36 INFO  actitime testing:190 - close application
+
+
+2021-06-03 23:36:37 INFO  actitime testing:21 - launch browser
+2021-06-03 23:36:41 INFO  actitime testing:35 - navigating to URL
+2021-06-03 23:36:43 INFO  actitime testing:51 - login as admin
+2021-06-03 23:36:51 INFO  actitime testing:84 - created customer
+2021-06-03 23:36:58 INFO  actitime testing:104 - created project
+2021-06-03 23:37:03 INFO  actitime testing:125 - created task
+2021-06-03 23:37:07 INFO  actitime testing:146 - deleted task
+2021-06-03 23:37:09 INFO  actitime testing:160 - logout
+2021-06-03 23:37:09 INFO  actitime testing:173 - close application
+
+
+2021-06-03 23:37:10 INFO  actitime testing:25 - launch browser
+2021-06-03 23:37:15 INFO  actitime testing:40 - navigating to the URL
+2021-06-03 23:37:17 INFO  actitime testing:58 - done login as admin
+2021-06-03 23:37:36 INFO  actitime testing:116 - created 3 users
+2021-06-03 23:37:38 INFO  actitime testing:130 - logout as admin
+2021-06-03 23:37:42 INFO  actitime testing:148 - login as user1
+2021-06-03 23:37:45 INFO  actitime testing:162 - logout as user1
+2021-06-03 23:37:45 INFO  actitime testing:174 - login as user2
+2021-06-03 23:37:51 INFO  actitime testing:194 - logout as user2
+2021-06-03 23:37:55 INFO  actitime testing:212 - login as user3
+2021-06-03 23:37:58 INFO  actitime testing:226 - logout as user3
+2021-06-03 23:38:00 INFO  actitime testing:242 - login again as admin
+2021-06-03 23:38:24 INFO  actitime testing:286 - deleted all 3 users
+2021-06-03 23:38:26 INFO  actitime testing:302 - logout as admin 
+2021-06-03 23:38:26 INFO  actitime testing:315 - close application
+
+
+2021-06-03 23:38:27 INFO  actitime testing:21 - launch browser
+2021-06-03 23:38:33 INFO  actitime testing:36 - navigating to the URL
+2021-06-03 23:38:36 INFO  actitime testing:53 - login as admin
+2021-06-03 23:38:48 INFO  actitime testing:127 - created user 1
+2021-06-03 23:38:50 INFO  actitime testing:429 - logout
+2021-06-03 23:38:56 INFO  actitime testing:254 - login as user1
+2021-06-03 23:39:03 INFO  actitime testing:151 - created user 2
+2021-06-03 23:39:05 INFO  actitime testing:443 - logout
+2021-06-03 23:39:12 INFO  actitime testing:272 - login as user2
+2021-06-03 23:39:19 INFO  actitime testing:175 - created user 3
+2021-06-03 23:39:21 INFO  actitime testing:457 - logout
+2021-06-03 23:39:23 INFO  actitime testing:71 - login as admin
+2021-06-03 23:39:35 INFO  actitime testing:195 - modified user 1
+2021-06-03 23:39:37 INFO  actitime testing:472 - logout
+2021-06-03 23:39:39 INFO  actitime testing:291 - login as modified User1
+2021-06-03 23:39:51 INFO  actitime testing:215 - modified user 2
+2021-06-03 23:39:53 INFO  actitime testing:486 - logout
+2021-06-03 23:39:55 INFO  actitime testing:326 - login as modified User2
+2021-06-03 23:40:07 INFO  actitime testing:235 - modified user 3
+2021-06-03 23:40:09 INFO  actitime testing:500 - logout
+2021-06-03 23:40:11 INFO  actitime testing:344 - login as modified User2
+2021-06-03 23:40:20 INFO  actitime testing:367 - deleted user 3
+2021-06-03 23:40:22 INFO  actitime testing:514 - logout
+2021-06-03 23:40:24 INFO  actitime testing:309 - login as modified User1
+2021-06-03 23:40:33 INFO  actitime testing:391 - deleted user 2
+2021-06-03 23:40:35 INFO  actitime testing:529 - logout
+2021-06-03 23:40:37 INFO  actitime testing:88 - login as admin
+2021-06-03 23:40:46 INFO  actitime testing:415 - deleted user 1
+2021-06-03 23:40:48 INFO  actitime testing:543 - logout
+2021-06-03 23:40:48 INFO  actitime testing:558 - close application
+
+
+
+2021-06-05 17:46:57 INFO  actitime testing:28 - launch browser
+2021-06-05 17:47:05 INFO  actitime testing:44 - navigate to URL
+2021-06-05 17:47:05 INFO  actitime testing:61 - user name inputed as admin
+2021-06-05 17:47:11 INFO  actitime testing:65 - login as admin
+2021-06-05 17:47:24 INFO  actitime testing:108 - created user 1
+2021-06-05 17:47:33 INFO  actitime testing:135 - deleted user 1
+2021-06-05 17:47:35 INFO  actitime testing:149 - logout 
+2021-06-05 17:47:35 INFO  actitime testing:162 - close application
