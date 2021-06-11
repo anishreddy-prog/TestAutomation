@@ -4,7 +4,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class Users extends Initialization{
+public class Users {
 	
 	/**
 	 * Test case ID:
@@ -17,7 +17,7 @@ public class Users extends Initialization{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void createUser()
+	public static void createUser(WebDriver oBrowser)
 	{
 		try
 		{
@@ -50,16 +50,17 @@ public class Users extends Initialization{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void modifyuser()
+	public static void modifyUser(WebDriver oBrowser)
 	{
 		try
 		{
 			oBrowser.findElement(By.xpath("//*[@id='userListTableContainer']/table/tbody/tr[2]/td[1]/table/tbody/tr/td/div[1]/span[2]")).click();
 			Thread.sleep(3000);
-			oBrowser.findElement(By.name("lastName")).sendKeys("2");
+			oBrowser.findElement(By.name("password")).sendKeys("Welcome123");
+			oBrowser.findElement(By.name("passwordCopy")).sendKeys("Welcome123");
 			Thread.sleep(2000);
 			oBrowser.findElement(By.xpath("//*[@id='userDataLightBox_commitBtn']/div/span")).click();
-			Thread.sleep(3000);
+			Thread.sleep(4000);
 		}catch(Exception e)
 		{
 			e.printStackTrace();
@@ -77,7 +78,7 @@ public class Users extends Initialization{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void deleteUser()
+	public static void deleteUser(WebDriver oBrowser)
 	{
 		try
 		{

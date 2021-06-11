@@ -15,18 +15,19 @@ public class Initialization {
 	 * Purpose:
 	 * Description:
 	 */
-	public static void launchBrowser()
+	public static WebDriver launchBrowser()
 	{
 		try
 		{
-			
-			System.setProperty("webdriver.chrome.driver", "E:\\GitHub\\CurrentWorkSpace\\TestAutomation\\ActiTime-Automation\\Library\\drivers\\chromedriver.exe");
+		
+			System.setProperty("webdriver.chrome.driver", "E:\\GitHub\\CurrentWorkSpace\\TestAutomation\\Web-Automation\\Library\\drivers\\chromedriver.exe");
 			oBrowser=new ChromeDriver();
 			oBrowser.manage().window().maximize();
 		}catch(Exception e)
 		{
 			e.printStackTrace();
 		}
+		return oBrowser;
 	}
 	
 	/**
@@ -40,7 +41,7 @@ public class Initialization {
 	 * Purpose:
 	 * Description:
 	 */
-	public static void navigate()
+	public static void navigate(WebDriver oBrowser)
 	{
 		try
 		{
@@ -63,7 +64,7 @@ public class Initialization {
 	 * Purpose:
 	 * Description:
 	 */
-	public static void closeApplication()
+	public static void closeApplication(WebDriver oBrowser)
 	{
 		try
 		{
