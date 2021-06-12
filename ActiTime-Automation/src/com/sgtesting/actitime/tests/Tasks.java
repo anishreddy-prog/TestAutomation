@@ -28,7 +28,6 @@ public class Tasks {
 			Thread.sleep(3000);
 			oBrowser.findElement(By.xpath( "//*[@id='createTasksPopup_commitBtn']/div")).click();
 			Thread.sleep(3000);
-			
 		}catch(Exception e)
 		{
 			e.printStackTrace();
