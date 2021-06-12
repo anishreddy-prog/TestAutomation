@@ -56,7 +56,6 @@ public class Projects {
 			Thread.sleep(3000);
 			oBrowser.findElement(By.xpath("//*[@id=\'taskListBlock\']/div[4]/div[1]/div[1]")).click();
 			Thread.sleep(3000);
-			
 		}catch(Exception e)
 		{
 			e.printStackTrace();
@@ -86,7 +85,6 @@ public class Projects {
 			Thread.sleep(3000);
 			oBrowser.findElement(By.id("projectPanel_deleteConfirm_submitTitle")).click();
 			Thread.sleep(3000);
-			
 		}catch(Exception e)
 		{
 			e.printStackTrace();

@@ -88,6 +88,7 @@ public class Customers {
 			Thread.sleep(3000);
 			oBrowser.findElement(By.id("customerPanel_deleteConfirm_submitTitle")).click();
 			Thread.sleep(3000);
+			
 		}catch(Exception e)
 		{
 			e.printStackTrace();
